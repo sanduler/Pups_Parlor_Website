@@ -12,7 +12,7 @@ This is just sample CSS provided for you. You will need to modify it.
 }
 
 header {
-    background: #001219;
+    background: #6c757d;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,7 +21,7 @@ header {
 }
 
 footer {
-    background: #001219;
+    background: #6c757d;
     display: flex;
     align-items: stretch;
     margin-top: auto;
@@ -122,4 +122,17 @@ body {
     border-radius: 4px;
     padding: 5px;
     width: 300px;
+}
+.background{
+    z-index: -1; 
+    max-width: 100%;
+    height: auto;
+    width: auto;
+
+    /* height: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-position: center top; */
 }
