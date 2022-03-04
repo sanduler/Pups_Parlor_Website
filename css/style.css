@@ -23,12 +23,13 @@ header {
 footer {
     background: #001219;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 100% 3px 1%;
-    position: fixed;
-    bottom: 0;
-    /* color: red; */
+    align-items: stretch;
+    margin-top: auto;
+    padding: 5px
+}
+
+.copyright{
+    color: white;
 }
 
 
@@ -86,7 +87,11 @@ button:hover{
 }
 
 body {
-    background-color: #e9d8a6;
+    background-color: #ffffff;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
 }
 
 
@@ -112,7 +117,9 @@ body {
     clear: both;
 }
 
-.copyright{
-    color: white;
-    margin-right: 50px;
+.image1{
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
 }
